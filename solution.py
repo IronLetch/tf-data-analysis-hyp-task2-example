@@ -11,4 +11,4 @@ def solution(x: np.array, y: np.array) -> bool:
     # Не меняйте название функции и её аргументы
     U1, p = mannwhitneyu(x, y, method="exact")
     alpha = 0.03
-    return (alpha<p)
+    return (alpha>=p)
