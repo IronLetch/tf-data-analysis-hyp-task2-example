@@ -3,7 +3,7 @@ import numpy as np
 
 from scipy.stats import mannwhitneyu
 
-chat_id = 123456 # Ваш chat ID, не меняйте название переменной
+chat_id = 531503618 # Ваш chat ID, не меняйте название переменной
 
 def solution(x: np.array, y: np.array) -> bool:
     # Измените код этой функции
